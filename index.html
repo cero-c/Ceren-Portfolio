@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceren Coban Portfolio</title>
+    <meta name="description" content="Portfolio of Ceren, CMD student specializing in frontend development.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Primary navigation">
+            <div>
+                <h1>Ceren Çoban</h1>
+                <p>- Frontend Development Intern</p>
+            </div>
+
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills and Toolbox</a></li>
+                <li><a href="#projects">My work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    I'm Ceren, an aspiring Frontend Designer with a background in law, film, and social impact projects.
+                    I translate abstract ideas into accessible, human-centered digital experiences and bring them to
+                    life through clean and structured code.
+                </p>
+                <p>
+                    I enjoy working on digital products with social value, where I combine empathy, visual thinking, and
+                    analytical skills. With a strong interest in behavior, culture, and technology, I design and build
+                    interfaces that are intuitive, inclusive, and sustainable.
+                </p>
+                <p>
+                    As a CMD student, I'm curious, independent, and motivated to create digital solutions that not only
+                    look good, but truly make a difference.
+                </p>
+
+                <div class="actions">
+                    <a href="#projects">View My work</a>
+                    <a href="#contact">Get in touch</a>
+                </div>
+            </div>
+            <img src='images/about.png' alt="picture of Ceren Coban from propedeuse day">
+
+        </section>
+
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div>
+                <article>
+                    <h3>UX Research & Prototyping</h3>
+                    <p>I conduct user research and translate insights into wireframes and interactive prototypes to test ideas early in the design process.</p>
+                    <a href="#prototyping">See Recept App >> </a>
+                </article>
+
+                <article>
+                    <h3>Interaction Design & Frontend Implementation</h3>
+                    <p>I design intuitive interactions and bring them to life through semantic HTML, modular CSS, and interactive JavaScript.</p>
+                    <a href="#game">See Govend Time >> </a>
+                </article>
+
+                <article>
+                    <h3>Storytelling & Concept Development</h3>
+                    <p>I translate abstract ideas into meaningful digital concepts that communicate clearly and engage users.</p>
+                    <a href="#concept">See MoppersPot >> </a>
+                </article>
+
+                <article>
+                    <h3>Socially Engaged Design</h3>
+                    <p>I aim to create digital experiences with social impact, focusing on inclusivity, sustainability, and accessibility.</p>
+                    <a href="#social">See Brutaals Club >> </a>
+                </article>
+
+                <article>
+                    <h3>Visual Identity & Branding</h3>
+                    <p>I develop cohesive visual systems that strengthen brand identity while maintaining clarity and usability</p>
+                    <a href="#visual">See visual projects >> </a>
+                </article>
+                
+            </div>
+        </section>
+
+        <section id="toolbox">
+            <h3>Toolbox</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3 (Flexbox & Grid)</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Git & GitHub</li>
+                <li>Node.js (basic)</li>
+                <li>Figma</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My work</h2>
+
+            <menu aria-label="Project filters">
+                <button type="button" data-filter="all" aria-pressed="true">All</button>
+                <button type="button" data-filter="hva" aria-pressed="false">Inside HvA</button>
+                <button type="button" data-filter="outside" aria-pressed="false">Outside HvA</button>
+            </menu>
+
+
+
+            <div class="projects">
+                <article data-category="hva">
+                    <h3>Universiteit van Nederland</h3>
+                    <p>Rebuild </p>
+                    <p>Responsive Web Development | Accessibility | Clean Code
+                    </p>
+                    <p>
+                        A front-end recreation of the Universiteit van Nederland website, built with a strong focus on responsiveness, accessibility, and attention to detail.
+
+                        The project emphasizes semantic structure, scalable layouts, and clean, maintainable code.
+                    </p>
+                    <a
+                        href="https://cero-c.github.io/J2-Frontend/">
+                        <b>View the project >> </b> </a>
+
+                    <div class="project-images">
+                        <img src="images/rebuild-1.png" alt="Rebuild UvN 1">
+                        <img src="images/rebuild-2.png" alt="Rebuild UvN 2">
+                    </div>
+
+                </article>
+
+                <article data-category="hva" id="game">
+                    <h3>Govend Time</h3>
+                    <p> Follow the rtyhym</p>
+                    <p>Interactive Game | HTML & CSS & JavaScript| Cultural Concept</p>
+                    <p>
+                        Govend Time combines cultural storytelling with simple, accessible interaction, designed to
+                        spark curiosity and connection for users unfamiliar with the dance.</p>
+                    <a href="https://cero-c.github.io/Game-Govend/"> <b>View the project >> </b> </a>
+                    <div class="project-images-landscape">
+                        <img src="images/govend-time-2.png" alt="Govend Time detail">
+                    </div>
+
+                </article>
+
+                <article data-category="hva" id="concept">
+                    <h3>MoppersPot</h3>
+                    <p>From frustration to inspiration</p>
+                    <p>UX Concept | Social Design | Reflection on News Consumption
+                    </p>
+                    <p>
+                        MoppersPot is an interactive app that helps users deal with news-related frustration in a light
+                        and constructive way.
+                    </p>
+
+                    <a
+                        href="https://www.figma.com/proto/MmIHyoKEWc5TrvFV84RSYg/Project-Individueel-2-Ceren-Coban-Lila?page-id=0%3A1&node-id=35-474&p=f&viewport=210%2C704%2C0.64&t=cbHwgWSfA8epN9je-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=35%3A474">
+                        <b>View the project >> </b> </a>
+
+                    <div class="project-images">
+                        <img src="images/Mopperspot-1.png" alt="MoppersPot home page">
+                        <img src="images/Mopperspot-2.png" alt="Mopperspot detail">
+                    </div>
+
+                </article>
+
+                <article data-category="hva" id="prototyping">
+                    <h3>Heel Holland Kookt</h3>
+                    <p> Group project for a recept app</p>
+                    <p>UX/UI Design | Figma Prototype | Team Project</p>
+                    <p>A collaborative recipe app prototype designed for flexible and sustainable cooking. Includes smart ingredient substitution and filtering by dietary needs and preparation time.</p>
+                    <a href="https://www.figma.com/proto/yMxdObxDnXklcx79ulf9l0/HHK--Receptapp?page-id=0%3A1&node-id=4-5&starting-point-node-id=4%3A5&t=JSzFg7NUFNxB7IjO-1"> <b>View the project >> </b> </a>
+                    <div class="project-images">
+                        <img src="images/HHK-1.png" alt="Heel Holland Kookt home page">
+                        <img src="images/HHK-2.png" alt="Heel Holland Kookt detail">
+                    </div>
+
+                </article>
+
+                <article data-category="hva">
+                    <h3>De Boekenzoeker</h3>
+                    <p> Ask to the Selection Hat</p>
+                    <p>UX/UI Design | Figma Prototype | Concept Development</p>
+                    <p>
+                        Govend Time combines cultural storytelling with simple, accessible interaction, designed to
+                        spark curiosity and connection for users unfamiliar with the dance.</p>
+                    <a href="https://www.figma.com/proto/1KQlf52XMDHV7cM7Il3OLG/Boekenzoeker?page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&t=I4sIG09ULnmbEv3m-1"> <b>View the project >> </b> </a>
+                    <div class="project-images-landscape">
+                        <img src="images/boekenzoeker-2.png" alt="Boekenzoeker ipad detail">
+                    </div>
+
+                </article>
+
+                <article data-category="hva" id="social">
+                    <h3>Brutaals Club</h3>
+                    <p> A website about De Halve Wereld</p>
+                    <p>Mobile app | HTML & CSS | Branding</p>
+                    <p>For De Halve Wereld, an initiative advocating for a greener and more livable Amsterdam, I
+                        designed and developed an accessible mobile app.</p>
+                    <a href="https://cero-c.github.io/BrutaalsClub-2025/index.html"> <b>View the project >> </b> </a>
+                    <div class="project-images">
+                        <img src="images/Brutaals-Club-1.png" alt="Brutaal Club home">
+                        <img src="images/Brutaals-Club-2.png" alt="Brutaals Club detail">
+                    </div>
+
+                </article>
+
+                <article data-category="hva" id="visual">
+                    <h3>Coctail Bar Menu</h3>
+                    <p> A visual identity project for a fictional cocktail bar </p>
+                    <p>Visual Design | Logo & Menu | Branding</p>
+                    <p>I designed the complete menu and logo, exploring different styles, color palettes, and typography to capture a bold, graphic, and contemporary atmosphere.</p>
+                    <a href="images/Coctailbar.pdf"> <b>View the project >> </b> </a>
+                    <div class="project-images">
+                        <img src="images/coctail-bar-1.png" alt="Fiction Coctailbar">
+                        <img src="images/coctail-bar-2.png" alt="Fiction Coctailbar-2">
+                    </div>
+                </article>
+
+                <article data-category="outside">
+                    <h3>Stichting Galatea | Curator</h3>
+                    <p>Work Experience </p>
+                    <p>Aug 2023 - Nov 2024</p>
+                    <p>As a curator at Stichting Galatea, I organized monthly exhibitions featuring artists with a refugee background. I was involved in concept development, artwork selection, communication, and exhibition setup at Kuub.space.
+                    The exhibitions focused on art addressing social themes and creating space for new perspectives.
+                    </p>
+                    <a href="https://www.galateafoundation.org/wat-we-doen/kunst"> <b> Learn more >> </b> </a>
+                    <div class="project-images-logo">
+                        <img src="images/Galatea.png" alt="Galatea Foundation">
+                    </div>
+                </article>
+
+                <article data-category="outside">
+                    <h3>Bianet</h3>
+                    <p>Journalist </p>
+                    <p>July-Aug 2019</p>
+                    <p>As a voluntary journalist at the online media platform Bianet, I wrote articles on feminism and justice, including pieces on designer Laila Laurel and the Şule Çet murder case.
+                    
+                    This experience strengthened my belief in media as a tool for awareness and social change. I value journalism that brings underrepresented stories to light, with attention to human experience, gender equality, and structural injustice.
+                    </p>
+                    <a href="https://bianet.org/author/ceren-coban-6997"> <b> Read the articles >> </b> </a>
+                    <div class="project-images-landscape">
+                        <img src="images/atelier-bia.png" alt="Picture of Laura Laurel, related her interview">
+                    </div>
+                </article>
+
+                <article data-category="outside">
+                    <h3>Alpha</h3>
+                    <p> A logo design for the French construction company </p>
+                    <p>Visual Design | Logo Design | Branding</p>
+                    <p>The concept focuses on simplicity and strength, reflecting the company's expertise in structural construction and renovation while communicating reliability and professionalism.</p>
+                    <div class="project-images-landscape">
+                        <img src="images/Alpha-logo.png" alt="logo-construction">
+                    </div>
+                </article>
+
+                <article>
+                    <h3>My CV</h3>
+                    <p> Interested in my full profile?</p>
+                    <p>Frontend Designer with a strong UX mindset </p>
+                    <p>You can download my CV for a more detailed overview of my education, experience, and technical skills.</p>
+                    <a href="images/Ceren-Coban-CV-english.pdf"> <b> Download my CV >> </b> </a>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                Looking for a curious and motivated frontend intern? I'd love to contribute and keep learning.
+            </p>
+
+            <ul>
+                <li><a href="mailto:ceren.coban@hva.nl">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/ceren-%C3%A7oban-049b55332/">LinkedIn</a></li>
+                <li><a href="https://github.com/cero-c">GitHub</a></li>
+            </ul>
+        </section>
+
+        <div>
+         <p>© 2026 Ceren Çoban | Frontend Developer in Progress</p>
+
+         <p>Thank you for your interest</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
